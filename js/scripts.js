@@ -1,3 +1,10 @@
+//Show current date
+let currentDate = $('#currentDate');
+let now = new Date();
+let date = now.toLocaleDateString();
+currentDate.text('Today is ' + date);
+
+//List function
 function newItem(){
   
   //Add new item to list

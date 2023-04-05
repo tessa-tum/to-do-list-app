@@ -3,18 +3,50 @@ body {
   background: #4AC29A;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);
   background: linear-gradient(to right, #BDFFF3, #4AC29A); 
+  margin: 0;
+  }
+
+  h1{
+    font-weight: 600;
+    font-size: 60px;
+    color:#242629;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 17px;
+    color:#242629;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    border-bottom: 0.5px #242629;
+    width: 50px;
+    margin: 20px auto;
 
   }
   
+  #currentDate {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    justify-content: center;
+    color:#242629;
+  }
+
   .container{
   padding: 20px;
-  width: 300px;
+  width: 280px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
   background: white;
-  box-shadow: 5px 5px #242629;
-  border-radius: 2px;
-  position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 2px #242629;
   }
   
   form {
@@ -45,7 +77,8 @@ body {
   
   ol li:nth-child(even){background: #BDFFF3;}
   
-  .strike{text-decoration: line-through;}
+  .strike{
+    text-decoration: line-through;}
   
   li:hover{
     cursor: pointer;
